@@ -1,0 +1,16 @@
+.todoItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.todoItem__completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.todoItem > p {
+	margin-left: 10px;
+}
